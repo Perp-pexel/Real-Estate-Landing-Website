@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.438);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#nav-items{
+    display: flex;
+    gap: 30px;
+}
+
+.list-items{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-button {
+    border-color: white;
+    background-color: rgba(255, 0, 0, 0.699);
+    /* font-size: 1px; */
+    padding: 10px;
+}
+
+
+header {
+    background-image: url(../assets/image/image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.input-section {
+margin: auto;
+display: flex;
+justify-content: center;
+position: relative;
+top: 50%;
+background-color: 
+rgba(0, 0, 0, 0.493);
+padding: 30px;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+input {
+    padding: 15px;
+    width: 50%;
+}
+
+/* .input-bg {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.349);
+} */
+    
+.button2 {
+    background-color: rgba(255, 0, 0, 0.603);
+    width: 10%;
+    border: none;
+    color: white;
+    
+}
+
+.main-container {
+    /* padding: 30px; */
+    width: 50%;
+    margin: auto;
+}
+
+.main-container h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.flex-container {
+display: flex;
+gap: 30px;
+margin-bottom: 3rem;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 1rem;
+}
+
+.text-container p {
+line-height: 1.6;
+margin-bottom: 1.2rem;
+color: rgba(0, 0, 0, 0.774);
+}
+
+.text-container a {
+    color: red;
+}
+
+.home-item img{
+    width: 100%;
+}
+.flex-home {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+
+.home-item a {
+    color: red;
+}
+
+.home-item {
+    line-height: 1.6;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+footer h1 {
+text-align: center;
+padding-bottom: 10px;
+}
+footer p {
+    padding-bottom: 30px;
+}
+.footer-input {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+ 
+}
+
+.button-input {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
