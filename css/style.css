@@ -4,11 +4,15 @@
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.61);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 #nav-items{
@@ -29,7 +33,19 @@ nav a{
     border-color: white;
     background-color: rgba(255, 0, 0, 0.699);
     /* font-size: 1px; */
-    padding: 10px;
+    padding: 5px;
+}
+.name-tag {
+    padding-left: none;
+    line-height: 1.3rem;
+    color: white;
+    
+}
+.nav-name {
+    font-size: 25px;
+}
+.name-base {
+    font-size: 15px;
 }
 
 
@@ -143,7 +159,7 @@ grid-row-gap: 0px;
     margin-bottom: 1.2rem;
 }
 
-footer {
+.Mortgage {
     background-color: black;
     display: flex;
     padding: 30px;
@@ -152,14 +168,14 @@ footer {
     text-align: center;
     color: white;
 }
-footer h1 {
+.Mortgage h1 {
 text-align: center;
 padding-bottom: 10px;
 }
-footer p {
+.Mortgage p {
     padding-bottom: 30px;
 }
-.footer-input {
+.Mortgage-input {
     display: flex;
     gap: 20px;
     width: 80%;
@@ -171,4 +187,93 @@ footer p {
     background-color: red;
     color: white;
     padding: 20px;
+}
+
+.below-section {
+    padding-top: 100px;
+
+}
+.below-section h1 {
+    font-size: 50px;
+    padding-top: -100px;
+    
+}
+.below-section image {
+    padding-top: 100px;
+    
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+
+}
+.footer-name {
+    margin: 5%;
+    margin-left: none;
+    line-height: 3rem;
+    padding-left: 8px;
+    border-right-style: solid;
+    width: 30%;
+
+}
+.main-name {
+    font-size: 70px;
+    line-height: 3rem;
+}
+.base-name {
+    font-size: 30px;
+    
+    
+}
+footer p {
+    line-height: 3rem;
+    padding: 15px;
+    text-align: start;
+    
+}
+.footer-container {
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+.footer-button {
+    padding: 15px;
+    background-color: red;
+    border: none;
+}
+.footer-button a {
+    color: white;
+    text-decoration: none;
+}
+.flex-footer {
+text-align: center;
+line-height: 3rem;
+padding: 25px;
+margin-top: 4rem;
+margin-bottom: 4rem;
+padding-left: none;
+}
+.flex-footer h1 {
+    font-size: 25px;
+    line-height: 4rem;
+}
+
+.flex-list {
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    font-size: 15px;
+
+}
+.flex-list a{
+    text-decoration: none;
+    color: white;
 }
